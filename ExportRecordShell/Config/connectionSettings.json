@@ -1,0 +1,31 @@
+{
+  "environments": [
+    {
+      "name": "Production",
+      "instanceUrl": "https://login.salesforce.com",
+      "clientId": "xxxxx",
+      "clientSecret": "xxxxx",
+      "username": "xxxxx@example.com",
+      "password": "xxxxx",
+      "securityToken": "xxxxx"
+    },
+    {
+      "name": "Sandbox1",
+      "instanceUrl": "https://test.salesforce.com",
+      "clientId": "xxxxx",
+      "clientSecret": "xxxxx",
+      "username": "xxxxx@devsandbox.example.com",
+      "password": "xxxxx",
+      "securityToken": "xxxxx"
+    },
+    {
+      "name": "Sandbox2",
+      "instanceUrl": "https://test.salesforce.com",
+      "clientId": "xxxxx",
+      "clientSecret": "xxxxx",
+      "username": "xxxxx@uatbox.example.com",
+      "password": "xxxxx",
+      "securityToken": "xxxxx"
+    }
+  ]
+}
